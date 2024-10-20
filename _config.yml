@@ -21,10 +21,10 @@ email: vincentwq123@gmail.com
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
 github_username: Vincent-ice
-codepen_username:
-dev_username:
-linkedin_username:
-twitter_username:
+bilibili_username: Vincent丶淇
+dev_username: 龙芯手册
+linkedin_username: 龙芯博客
+twitter_username: Vincent_qi
 
 # ABOUT ME SECTION
 # show_aboutme_card:
@@ -59,7 +59,7 @@ cv_download_link: https://example.com/
 # show_projects_card:
 # > setting this to true, will display the Projects section
 # > setting this to false, will omit the Projects section
-show_projects_card: flase
+show_projects_card: false
 # show_projects:
 # > setting this to true, will display your listed projects in _data/projects.yml
 # > setting this to false, will omit your listed projects
