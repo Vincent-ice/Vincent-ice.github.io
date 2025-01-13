@@ -57,18 +57,18 @@
       {% endif %}
 
       {% if site.dev_username != null %}
-        <a class="social-link" aria-label="龙芯手册" target="_blank" rel="noreferrer"
-          href="https://vincent-ice.github.io/{{site.dev_username}}"
+        <a class="social-link" aria-label="Steam" target="_blank" rel="noreferrer"
+          href="https://steamcommunity.com/profiles/{{site.twitter_username}}"
         >
           <svg viewBox="0 0 200 200" class="circle">
             <circle cx="100" cy="100" r="80" />
           </svg>
           <div class="social">
             <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#blog" | prepend: site.baseurl }}"></use>
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#steam" | prepend: site.baseurl }}"></use>
             </svg>
           </div>
-          <span class="label">龙芯手册</span>
+          <span class="label">Steam</span>
         </a>
       {% endif %}
 
